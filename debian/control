@@ -1,0 +1,12 @@
+Source: ros-melodic-prbt-pg70-support
+Section: misc
+Priority: extra
+Maintainer: Pilz GmbH and Co. KG <ros@pilz.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: https://wiki.ros.org/prbt_pg70_support
+Standards-Version: 3.9.2
+
+Package: ros-melodic-prbt-pg70-support
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-prbt-ikfast-manipulator-plugin, ros-melodic-prbt-moveit-config, ros-melodic-prbt-support, ros-melodic-schunk-description, ros-melodic-xacro
+Description: PRBT support for Schunk pg70 gripper.
