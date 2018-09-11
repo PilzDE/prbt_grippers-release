@@ -1,0 +1,12 @@
+Source: ros-melodic-prbt-grippers
+Section: misc
+Priority: extra
+Maintainer: Pilz GmbH and Co. KG <ros@pilz.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin
+Homepage: http://ros.org/wiki/prbt_grippers
+Standards-Version: 3.9.2
+
+Package: ros-melodic-prbt-grippers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-prbt-pg70-support
+Description: The package provides gripper support for the pilz_robots package.
