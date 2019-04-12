@@ -36,7 +36,9 @@ limitations under the License.
     <group name="gripper">
       <joint name="${prefix}gripper_finger_left_joint" />
     </group>
-    
+    <end_effector group="gripper" name="pg70_end_effector" parent_link="${prefix}flange">
+    </end_effector>
+
     <!--
     DISABLE COLLISIONS: By default it is assumed that any link of the robot could potentially come into collision with
     any other link in the robot. This tag disables collision checking between a specified pair of links.
