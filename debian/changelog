@@ -1,8 +1,0 @@
-ros-melodic-prbt-pg70-support (0.0.1-0stretch) stretch; urgency=high
-
-  * Added support for the Schunk pg70
-  * Contributors: Alexander Gutenkunst, Fahri Demirci, Hagen Slusarek, Immanuel Martini, Joachim Schleicher
-
- -- Pilz GmbH and Co. KG <ros@pilz.de>  Mon, 13 Aug 2018 22:00:00 -0000
-
-
