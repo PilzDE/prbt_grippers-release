@@ -27,11 +27,4 @@ limitations under the License.
   <xacro:schunk_pg70 parent="$(arg robot_prefix)flange" name="$(arg gripper_name)" has_podest="false">
     <origin xyz="0 0 0.0171" rpy="0 0 ${-pi*3/4.}" />
   </xacro:schunk_pg70>
-
-  <!-- Add gripper brackets -->
-  <xacro:include filename="$(find prbt_support)/urdf/simple_gripper_brackets.urdf.xacro" />
-  <xacro:simple_gripper_brackets
-      gripper_name="$(arg gripper_name)"
-      parent_left="$(arg gripper_name)_finger_left_link"
-      parent_right="$(arg gripper_name)_finger_right_link"/>
 </gripper>
