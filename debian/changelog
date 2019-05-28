@@ -1,0 +1,29 @@
+ros-melodic-prbt-pg70-support (0.0.4-1stretch) stretch; urgency=high
+
+  * define xacro macro for the pg70
+  * Contributors: Pilz GmbH and Co. KG
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Mon, 27 May 2019 22:00:00 -0000
+
+ros-melodic-prbt-pg70-support (0.0.3-1stretch) stretch; urgency=high
+
+  * Move the include of gripper brackets to prbt_support
+  * Omit definition of gripper brackets in pg70.urdf.xacro
+  * Contributors: Pilz GmbH and Co. KG
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Tue, 23 Apr 2019 22:00:00 -0000
+
+ros-melodic-prbt-pg70-support (0.0.2-1stretch) stretch; urgency=high
+
+  * Mark gripper as end_effector
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Sun, 31 Mar 2019 22:00:00 -0000
+
+ros-melodic-prbt-pg70-support (0.0.1-1stretch) stretch; urgency=high
+
+  * Added support for the Schunk pg70
+  * Contributors: Alexander Gutenkunst, Fahri Demirci, Hagen Slusarek, Immanuel Martini, Joachim Schleicher
+
+ -- Pilz GmbH and Co. KG <ros@pilz.de>  Mon, 13 Aug 2018 22:00:00 -0000
+
+
