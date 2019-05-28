@@ -1,3 +1,28 @@
+## prbt_grippers (melodic) - 0.0.4-1
+
+The packages in the `prbt_grippers` repository were released into the `melodic` distro by running `/usr/bin/bloom-release --rosdistro melodic --track melodic prbt_grippers` on `Tue, 28 May 2019 10:55:27 -0000`
+
+These packages were released:
+- `prbt_grippers`
+- `prbt_pg70_support`
+
+Version of package(s) in repository `prbt_grippers`:
+
+- upstream repository: https://github.com/PilzDE/prbt_grippers.git
+- release repository: https://github.com/PilzDE/prbt_grippers-release.git
+- rosdistro version: `0.0.3-1`
+- old version: `0.0.3-1`
+- new version: `0.0.4-1`
+
+Versions of tools used:
+
+- bloom version: `0.8.0`
+- catkin_pkg version: `0.4.12`
+- rosdep version: `0.15.2`
+- rosdistro version: `0.7.4`
+- vcstools version: `0.1.40`
+
+
 ## prbt_grippers (melodic) - 0.0.3-1
 
 The packages in the `prbt_grippers` repository were released into the `melodic` distro by running `/usr/bin/bloom-release prbt_grippers --track melodic --rosdistro melodic --edit` on `Wed, 24 Apr 2019 11:01:43 -0000`
