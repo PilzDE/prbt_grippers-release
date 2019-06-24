@@ -16,15 +16,14 @@ See the License for the specific language governing permissions and
 limitations under the License.
 -->
 
-<gripper name="pg70" xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <!-- Load pg70 gripper macro -->
-  <xacro:include filename="$(find schunk_description)/urdf/pg70/pg70.urdf.xacro" />
+<gripper xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:macro name="prbt_gripper" params="gripper_name:=^ parent">
+    <!-- Load pg70 gripper macro -->
+    <xacro:include filename="$(find schunk_description)/urdf/pg70/pg70.urdf.xacro" />
 
-  <!-- name of the gripper -->
-  <xacro:arg name="gripper_name" default="$(arg robot_prefix)gripper"/>
-
-  <!-- instantiate the gripper -->
-  <xacro:schunk_pg70 parent="$(arg robot_prefix)flange" name="$(arg gripper_name)" has_podest="false">
-    <origin xyz="0 0 0.0171" rpy="0 0 ${-pi*3/4.}" />
-  </xacro:schunk_pg70>
+    <!-- instantiate the gripper -->
+    <xacro:schunk_pg70 parent="${parent}" name="${gripper_name}" has_podest="false">
+      <origin xyz="0 0 0.0171" rpy="0 0 ${-pi*3/4.}" />
+    </xacro:schunk_pg70>
+  </xacro:macro>
 </gripper>
