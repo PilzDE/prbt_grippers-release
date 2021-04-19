@@ -1,3 +1,28 @@
+## prbt_grippers (noetic) - 0.0.5-1
+
+The packages in the `prbt_grippers` repository were released into the `noetic` distro by running `/usr/bin/bloom-release --rosdistro noetic --track noetic prbt_grippers` on `Mon, 19 Apr 2021 11:23:04 -0000`
+
+These packages were released:
+- `prbt_grippers`
+- `prbt_pg70_support`
+
+Version of package(s) in repository `prbt_grippers`:
+
+- upstream repository: https://github.com/PilzDE/prbt_grippers.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.0.5-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.7`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.20.1`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## prbt_grippers (kinetic) - 0.0.4-1
 
 The packages in the `prbt_grippers` repository were released into the `kinetic` distro by running `/usr/bin/bloom-release prbt_grippers --track kinetic --rosdistro kinetic --edit` on `Mon, 24 Jun 2019 09:23:04 -0000`
