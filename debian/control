@@ -1,0 +1,12 @@
+Source: ros-noetic-prbt-pg70-support
+Section: misc
+Priority: optional
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: https://wiki.ros.org/prbt_pg70_support
+Standards-Version: 3.9.2
+
+Package: ros-noetic-prbt-pg70-support
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-prbt-ikfast-manipulator-plugin, ros-noetic-prbt-moveit-config, ros-noetic-prbt-support, ros-noetic-schunk-description, ros-noetic-xacro
+Description: PRBT support for Schunk pg70 gripper.
