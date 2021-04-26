@@ -1,0 +1,32 @@
+ros-noetic-prbt-grippers (0.0.5-2buster) buster; urgency=high
+
+  * Fixes cmake minimum required to remove developer warning on ubuntu 20
+  * Contributors: Pilz GmbH and Co. KG
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Mon, 19 Apr 2021 00:00:00 -0000
+
+ros-noetic-prbt-grippers (0.0.4-2buster) buster; urgency=high
+
+
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Tue, 28 May 2019 00:00:00 -0000
+
+ros-noetic-prbt-grippers (0.0.3-2buster) buster; urgency=high
+
+
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Wed, 24 Apr 2019 00:00:00 -0000
+
+ros-noetic-prbt-grippers (0.0.2-2buster) buster; urgency=high
+
+
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Mon, 01 Apr 2019 00:00:00 -0000
+
+ros-noetic-prbt-grippers (0.0.1-2buster) buster; urgency=high
+
+  * initial release
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Tue, 14 Aug 2018 00:00:00 -0000
+
+

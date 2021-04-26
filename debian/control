@@ -1,0 +1,12 @@
+Source: ros-noetic-prbt-grippers
+Section: misc
+Priority: optional
+Maintainer: Alexander Gutenkunst <a.gutenkunst@pilz.de>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin
+Homepage: http://ros.org/wiki/prbt_grippers
+Standards-Version: 3.9.2
+
+Package: ros-noetic-prbt-grippers
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-prbt-pg70-support
+Description: The package provides gripper support for the pilz_robots package.
