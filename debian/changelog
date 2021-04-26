@@ -1,0 +1,36 @@
+ros-noetic-prbt-pg70-support (0.0.5-2buster) buster; urgency=high
+
+  * Fixes cmake minimum required to remove developer warning on ubuntu 20
+  * Contributors: Pilz GmbH and Co. KG
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Mon, 19 Apr 2021 00:00:00 -0000
+
+ros-noetic-prbt-pg70-support (0.0.4-2buster) buster; urgency=high
+
+  * define xacro macro for the pg70
+  * Contributors: Pilz GmbH and Co. KG
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Tue, 28 May 2019 00:00:00 -0000
+
+ros-noetic-prbt-pg70-support (0.0.3-2buster) buster; urgency=high
+
+  * Move the include of gripper brackets to prbt_support
+  * Omit definition of gripper brackets in pg70.urdf.xacro
+  * Contributors: Pilz GmbH and Co. KG
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Wed, 24 Apr 2019 00:00:00 -0000
+
+ros-noetic-prbt-pg70-support (0.0.2-2buster) buster; urgency=high
+
+  * Mark gripper as end_effector
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Mon, 01 Apr 2019 00:00:00 -0000
+
+ros-noetic-prbt-pg70-support (0.0.1-2buster) buster; urgency=high
+
+  * Added support for the Schunk pg70
+  * Contributors: Alexander Gutenkunst, Fahri Demirci, Hagen Slusarek, Immanuel Martini, Joachim Schleicher
+
+ -- Alexander Gutenkunst <a.gutenkunst@pilz.de>  Tue, 14 Aug 2018 00:00:00 -0000
+
+
